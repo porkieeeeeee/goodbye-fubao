@@ -34,8 +34,14 @@ header {
 
 /* index.html */
 .main-container {
+  height: calc(100% - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-wrapper {
   width: 1080px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
